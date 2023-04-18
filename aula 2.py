@@ -11,8 +11,8 @@ Isso é um comentário de várias linhas
 print ("Olá  ",nome,",sua idade é ", idade, "anos")
 
 print ("Olá {} sua idade é {}".format(nome,idade))
-print (f"Olá {nome} sua idade é {idade}")
 
+print (f"Olá {nome} sua idade é {idade}")
 
 
 
