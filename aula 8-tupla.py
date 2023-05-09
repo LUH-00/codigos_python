@@ -1,4 +1,6 @@
 lanche = ("Pizza", "Hotdog" , "Refri", "Batata")
+idades = tuple (18 ,20, 12) # putra formar de criar tuplas                                                         
+
 print (lanche)
 print(type(lanche)) # estou mostrando o tipo da variavel 
 
@@ -19,4 +21,3 @@ print("-"*30)
 #enumenrate serve para permitir acessar os índices da tupla. Já a variavel, ira armazenar os valores do indice
 for indice,elemento in enumerate(lanche):
     print (f"{indice} = {elemento}")
-    
