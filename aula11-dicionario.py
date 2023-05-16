@@ -18,5 +18,6 @@ print(pessoa.values(), "\n")
 #exibindo os tanto a chave como o valor utilizando o comando items()
 print(pessoa.items(), "\n")
 
+#Exibindo 
 for chave, valor in pessoa.items():
     print (f"{chave} : {valor}")
