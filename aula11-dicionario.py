@@ -21,3 +21,4 @@ print(pessoa.items(), "\n")
 #Exibindo 
 for chave, valor in pessoa.items():
     print (f"{chave} : {valor}")
+    

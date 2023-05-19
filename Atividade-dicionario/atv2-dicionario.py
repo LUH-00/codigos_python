@@ -8,7 +8,7 @@ nomes = list()
 telefone = dict()
 
 os.system ("cls")
-for contador in range (1,7):
+for contador in range (0,7):
     nome = input("Informe o nome: ")
     telefone[nome]= int(input(f"informe o numero do telefone de {nome} "))
     

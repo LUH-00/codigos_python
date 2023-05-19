@@ -1,3 +1,4 @@
+
 idade = int(input("informe a idade do aluno: "))
 
 def informar (i):

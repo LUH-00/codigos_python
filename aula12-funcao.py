@@ -1,12 +1,12 @@
 
-# FUNÇÃO SEM PARÂMETRO (O def é de definição )
+# FUNÇÃO SEM PARÂMETRO (O def é de definição / fução)
 def somar():
     valor1 = int(input("Informe um valor: "))
     valor2 = int(input("Informe outro valor: "))
 
     print(valor1 + valor2)
 
-soma()
+
 #FUNÇÃO COM PARÂMETRO 
 num1 = int(input("Informe o valor 1: "))
 num2 = int(input("Informe o valor 2: "))

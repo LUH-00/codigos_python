@@ -11,7 +11,7 @@ produtos = list()
 preço = dict()
 
 os.system("cls")
-for contador in range (1,3):
+for contador in range (0,8):
     nome = input("Informe o nome do prato desejado: ")
     preço [nome] = int(input(f"Informe o preço da(o) {nome}: "))
 
