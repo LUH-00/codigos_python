@@ -18,7 +18,23 @@ class Conta:
     
     #O método SET irá alterar o conteúdo do atributo, sem exibir nada
     def setLimite(self, valor):
+    
+
         if valor < 0:
             print("Valor menor que zero, infome outro valor")
         else:
             self.__limite = valor
+
+    #vamos modificar o atributo saldo com @peoperty e @ssetter
+
+    @property
+    def saldo(self):
+        print(f"Olá, seu saldo é {self.__saldo}\n")
+
+
+    @saldo.setter
+    def saldo(self, valor):
+        if valor <= 0:
+            print("Você não pode inserir valor negativo ou zero \n")
+        else:
+            self.__saldo = valor
